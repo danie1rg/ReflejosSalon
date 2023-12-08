@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflejosSalon", "ReflejosSalon\ReflejosSalon.csproj", "{CA7A928A-DF8E-4BC3-A036-866C44708FA3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7025AF5-87B6-4B5E-ADA2-770F2F8096C0} = {C7025AF5-87B6-4B5E-ADA2-770F2F8096C0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{C7025AF5-87B6-4B5E-ADA2-770F2F8096C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA7A928A-DF8E-4BC3-A036-866C44708FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7A928A-DF8E-4BC3-A036-866C44708FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7A928A-DF8E-4BC3-A036-866C44708FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7A928A-DF8E-4BC3-A036-866C44708FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7025AF5-87B6-4B5E-ADA2-770F2F8096C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7025AF5-87B6-4B5E-ADA2-770F2F8096C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7025AF5-87B6-4B5E-ADA2-770F2F8096C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7025AF5-87B6-4B5E-ADA2-770F2F8096C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A692B195-0255-44FE-B8A1-BCABB08B078C}
+	EndGlobalSection
+EndGlobal
