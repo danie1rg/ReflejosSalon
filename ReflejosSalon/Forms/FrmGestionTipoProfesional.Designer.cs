@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGestionTipoProfesional));
             this.TxtBuscar = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.TxtDescripcion = new System.Windows.Forms.TextBox();
@@ -41,7 +42,6 @@
             this.DtVista = new System.Windows.Forms.DataGridView();
             this.CCodigoTipoProfesional = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CDescripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DtVista)).BeginInit();
@@ -56,6 +56,7 @@
             this.TxtBuscar.Name = "TxtBuscar";
             this.TxtBuscar.Size = new System.Drawing.Size(257, 26);
             this.TxtBuscar.TabIndex = 9;
+            this.TxtBuscar.TextChanged += new System.EventHandler(this.TxtBuscar_TextChanged);
             // 
             // groupBox1
             // 
@@ -73,6 +74,15 @@
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Detalle Tipo Profesional";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 82);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 20);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Descripción";
             // 
             // button1
             // 
@@ -193,15 +203,6 @@
             this.CDescripcion.Name = "CDescripcion";
             this.CDescripcion.ReadOnly = true;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 82);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 20);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Descripción";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -226,7 +227,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.TxtBuscar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmGestionTipoProfesional";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

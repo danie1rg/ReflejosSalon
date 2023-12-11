@@ -115,7 +115,7 @@ namespace ReflejosSalon.Forms
    
                 if (EmailOK == false)
                 {
-                    string msg = string.Format("¿Está seguro que desea agregar el cliente {0}?", MiClienteLocal.Nombre);
+                    string msg = string.Format("¿Está seguro que desea agregar al cliente {0}?", MiClienteLocal.Nombre);
 
                     DialogResult respuesta = MessageBox.Show(msg, "???", MessageBoxButtons.YesNo);
 

@@ -30,6 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGestionProfesional));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.TxtCedula = new System.Windows.Forms.TextBox();
             this.TxtApellido = new System.Windows.Forms.TextBox();
             this.CbTipoProfesional = new System.Windows.Forms.ComboBox();
@@ -50,12 +56,6 @@
             this.CCorreo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CtipoProfesional = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DtVista)).BeginInit();
@@ -83,7 +83,61 @@
             this.groupBox1.Size = new System.Drawing.Size(808, 168);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Detalle Usuario";
+            this.groupBox1.Text = "Detalle Profesional";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(280, 25);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(144, 20);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Tipo de Profesional";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(280, 128);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(61, 20);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Correo ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(280, 78);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 20);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Télefono";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 128);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 20);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Cédula";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(65, 20);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Apellido";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 20);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Nombre";
             // 
             // TxtCedula
             // 
@@ -300,60 +354,6 @@
             this.CtipoProfesional.Name = "CtipoProfesional";
             this.CtipoProfesional.ReadOnly = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 20);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Nombre";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 78);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 20);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Apellido";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 128);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 20);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Cédula";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(280, 78);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 20);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Télefono";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(280, 128);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 20);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Correo ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(280, 25);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(144, 20);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Tipo de Profesional";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -380,7 +380,7 @@
             this.Controls.Add(this.BtnAgregar);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmGestionProfesional";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

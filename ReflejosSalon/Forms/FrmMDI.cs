@@ -121,6 +121,15 @@ namespace ReflejosSalon.Forms
             CargarListaEstados();
             CargarListaServicios();
             CargarListaPorDia();
+
+            switch(Globales.MiUsuarioGlobal.MiUsuarioRol.UserRolID)
+            {
+                case 1:
+                    break;
+                case 2:
+                    gestiónDeUsuarioToolStripMenuItem.Visible = false;
+                    break;
+            }
         }
 
         private void BtnNuevaCita_Click(object sender, EventArgs e)

@@ -149,7 +149,7 @@ namespace ReflejosSalon.Forms
 
                 if (MiServicioLocal.ConsultarPorID())
                 {
-                    DialogResult respuesta = MessageBox.Show("¿Está seguro de modificar {0}?", MiServicioLocal.Descripcion,
+                    DialogResult respuesta = MessageBox.Show("¿Está seguro de modificar?", "????",
                        MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                     if (respuesta == DialogResult.Yes)

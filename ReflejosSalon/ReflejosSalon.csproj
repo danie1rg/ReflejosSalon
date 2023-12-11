@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>salon_mirror_makeup_cosmetics_beauty_icon_186760.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -152,6 +155,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -174,6 +178,15 @@
       <Project>{c7025af5-87b6-4b5e-ada2-770f2f8096c0}</Project>
       <Name>Logica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1701969427395.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="salon_mirror_makeup_cosmetics_beauty_icon_186760.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

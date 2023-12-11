@@ -43,7 +43,7 @@ namespace Logica.Models
             MiCnn.ListaDeParametros.Add(new SqlParameter("@Cedula", this.Cedula));
 
             MiCnn.ListaDeParametros.Add(new SqlParameter("@Nombre", this.Nombre));
-            MiCnn.ListaDeParametros.Add(new SqlParameter("@Apellidos", this.Nombre));
+            MiCnn.ListaDeParametros.Add(new SqlParameter("@Apellidos", this.Apellido));
             MiCnn.ListaDeParametros.Add(new SqlParameter("@Telefono", this.Telefono));
             MiCnn.ListaDeParametros.Add(new SqlParameter("@Correo", this.Correo));
 

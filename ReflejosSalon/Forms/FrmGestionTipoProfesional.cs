@@ -92,7 +92,7 @@ namespace ReflejosSalon.Forms
 
                 if (DescripcionOK == false)
                 {
-                    string msg = string.Format("¿Está seguro que desea agregar el cliente {0}?", MiTipoProfesionalLocal.Descripcion);
+                    string msg = string.Format("¿Está seguro que desea agregar el tipo profesional {0}?", MiTipoProfesionalLocal.Descripcion);
 
                     DialogResult respuesta = MessageBox.Show(msg, "???", MessageBoxButtons.YesNo);
 
@@ -110,7 +110,7 @@ namespace ReflejosSalon.Forms
                         }
                         else
                         {
-                            MessageBox.Show("El cliente no se pudo guardar correctamente!", ":(", MessageBoxButtons.OK);
+                            MessageBox.Show("El tipo de profesional no se pudo guardar correctamente!", ":(", MessageBoxButtons.OK);
                         }
 
 
@@ -141,7 +141,7 @@ namespace ReflejosSalon.Forms
 
                 if (MiTipoProfesionalLocal.ConsultarPorID())
                 {
-                    DialogResult respuesta = MessageBox.Show("¿Está seguro de modificar {0}?", MiTipoProfesionalLocal.Descripcion,
+                    DialogResult respuesta = MessageBox.Show("¿Está seguro de modificar ","????",
                        MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                     if (respuesta == DialogResult.Yes)
@@ -201,6 +201,11 @@ namespace ReflejosSalon.Forms
         private void TxtDescripcion_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = Validation.CaracteresTexto(e, true);
+        }
+
+        private void TxtBuscar_TextChanged(object sender, EventArgs e)
+        {
+            CargarLista();
         }
     }
 }

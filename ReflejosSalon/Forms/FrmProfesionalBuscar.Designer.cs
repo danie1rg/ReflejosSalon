@@ -50,7 +50,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(428, 314);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 34);
             this.button1.TabIndex = 14;
@@ -65,7 +65,7 @@
             this.BtnSeleccionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSeleccionar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BtnSeleccionar.Location = new System.Drawing.Point(544, 314);
-            this.BtnSeleccionar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnSeleccionar.Margin = new System.Windows.Forms.Padding(2);
             this.BtnSeleccionar.Name = "BtnSeleccionar";
             this.BtnSeleccionar.Size = new System.Drawing.Size(112, 34);
             this.BtnSeleccionar.TabIndex = 13;
@@ -76,8 +76,8 @@
             // TxtBuscar
             // 
             this.TxtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBuscar.Location = new System.Drawing.Point(72, 19);
-            this.TxtBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtBuscar.Location = new System.Drawing.Point(154, 19);
+            this.TxtBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.TxtBuscar.Name = "TxtBuscar";
             this.TxtBuscar.Size = new System.Drawing.Size(317, 26);
             this.TxtBuscar.TabIndex = 12;
@@ -89,9 +89,9 @@
             this.label1.Location = new System.Drawing.Point(9, 22);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 20);
+            this.label1.Size = new System.Drawing.Size(141, 20);
             this.label1.TabIndex = 11;
-            this.label1.Text = "Buscar";
+            this.label1.Text = "Buscar profesional";
             // 
             // DtVista
             // 
@@ -111,7 +111,7 @@
             this.CTelefono,
             this.CtipoProfesional});
             this.DtVista.Location = new System.Drawing.Point(11, 66);
-            this.DtVista.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DtVista.Margin = new System.Windows.Forms.Padding(2);
             this.DtVista.MultiSelect = false;
             this.DtVista.Name = "DtVista";
             this.DtVista.ReadOnly = true;
@@ -119,7 +119,6 @@
             this.DtVista.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DtVista.Size = new System.Drawing.Size(645, 234);
             this.DtVista.TabIndex = 15;
-
             // 
             // CNombre
             // 

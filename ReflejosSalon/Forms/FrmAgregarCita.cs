@@ -135,6 +135,7 @@ namespace ReflejosSalon.Forms
                 {
                     MessageBox.Show("Cita creada correctamente", ":)", MessageBoxButtons.OK);
                     DialogResult = DialogResult.OK;
+                    Limpiar();
                 }
             } else 
             {
@@ -151,6 +152,7 @@ namespace ReflejosSalon.Forms
                     DialogResult = DialogResult.OK;
                 }
             }
+            
 
         }
 

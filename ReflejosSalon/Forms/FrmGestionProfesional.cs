@@ -55,11 +55,11 @@ namespace ReflejosSalon.Forms
 
         private void LimpiarForm()
         {
-            TxtApellido.Text = "Apellido";
-            TxtNombre.Text = "Nombre";
-            TxtCedula.Text = "Cédula";
-            TxtTelefono.Text = "Teléfono";
-            TxtCorreo.Text = "Correo electrónico";
+            TxtApellido.Text = "";
+            TxtNombre.Text = "";
+            TxtCedula.Text = "";
+            TxtTelefono.Text = "";
+            TxtCorreo.Text = "";
             CbTipoProfesional.SelectedIndex = -1;
         }
 
@@ -173,6 +173,7 @@ namespace ReflejosSalon.Forms
         {
             CargarListaDeProfesionales();
             CargarListaTipoProfesionales();
+            ActivarAgregar();
         }
 
         private void BtnAgregar_Click(object sender, EventArgs e)
@@ -258,7 +259,7 @@ namespace ReflejosSalon.Forms
                     {
                         if (MiProfesionalLocal.Editar())
                         {
-                            MessageBox.Show("El trAbajador ha sido modificado correctamente!", ":)", MessageBoxButtons.OK);
+                            MessageBox.Show("El trabajador ha sido modificado correctamente!", ":)", MessageBoxButtons.OK);
 
                             LimpiarForm();
                             ActivarAgregar();
@@ -353,5 +354,8 @@ namespace ReflejosSalon.Forms
         {
             e.Handled = Validation.CaracteresNumeros(e, true);
         }
+
+        
+
     }
 }
